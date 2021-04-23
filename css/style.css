@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.counter-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+section.counter-container h1{
+    font-size: 5rem;
+}
+
+.counter-number{
+    font-size: 4rem;
+}
+
+.counter-controllers{
+
+}
+
+.decrease-btn,
+.reset-btn,
+.increase-btn{
+    margin: 10px;
+    font-size: 25px;
+    padding: 5px 15px;
+    outline: none;
+    border: 2px solid #222222;
+    border-radius: 10px;
+    cursor: pointer;
+}
